@@ -109,6 +109,13 @@ export default function Product({ products }) {
                 </Form>
             </Modal>
             <Row>
+                <Col md={12}>
+                    <h1>
+                        Products List
+                    </h1>
+                </Col>
+            </Row>
+            <Row>
                 <Col>
                     <Button variant="primary" onClick={handleShow} style={{marginBottom:"20px", marginTop:"10px" }}>
                         Create Product

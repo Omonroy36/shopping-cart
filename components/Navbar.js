@@ -12,11 +12,6 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item active">
-              <Link href="/">
-                <a className="nav-link" >Home</a>
-              </Link>
-            </li>
             <li className="nav-item">
               <Link href="/costumer">
                 <a className="nav-link" >Costumer</a>
